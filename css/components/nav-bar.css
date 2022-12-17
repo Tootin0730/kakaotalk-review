@@ -23,7 +23,7 @@
   bottom: 15px;
 }
 
-.nav__alarm {
+.nav__elipsis-alarm {
   background-color: tomato;
   width: 5px;
   height: 5px;
@@ -34,4 +34,16 @@
   position: absolute;
   left: 30px;
   bottom: 22px;
+}
+.nav__setting-alarm {
+  background-color: tomato;
+  width: 5px;
+  height: 5px;
+  border-radius: 2.5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  right: 22px;
+  top: 23px;
 }
